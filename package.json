@@ -1,16 +1,12 @@
 {
-<<<<<<< HEAD
   "name": "educational-chat-app",
   "version": "0.1.0",
   "private": true,
-=======
->>>>>>> origin/master
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
-<<<<<<< HEAD
   },
   "dependencies": {
     "react": "19.1.0",
@@ -23,7 +19,5 @@
     "eslint": "^9",
     "eslint-config-next": "15.5.0",
     "@eslint/eslintrc": "^3"
-=======
->>>>>>> origin/master
   }
 }
