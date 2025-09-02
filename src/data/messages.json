@@ -1,0 +1,16 @@
+[
+  {
+    "room": "room1",
+    "messages": [
+      { "sender": "Alice", "text": "Hey everyone 👋", "time": "10:30 AM" },
+      { "sender": "Bob", "text": "Working on the assignment...", "time": "10:35 AM" }
+    ]
+  },
+  {
+    "room": "room2",
+    "messages": [
+      { "sender": "peter", "text": "Don’t forget quiz tomorrow!", "time": "9:00 AM" }
+    ]
+  }
+]
+

@@ -1,0 +1,14 @@
+[
+  {
+    "username": "teo",
+    "name": "peter",
+    "bio": "year Information Systems student passionate about web & mobile dev.",
+    "avatar": "https://i.pravatar.cc/150?img=1"
+  },
+  {
+    "username": "son",
+    "name": "jack",
+    "bio": "Frontend enthusiast | React + Next.js learner.",
+    "avatar": "https://i.pravatar.cc/150?img=2"
+  }
+]

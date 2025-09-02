@@ -1,15 +1,43 @@
+
 "use client";
-import { useState } from "react";
+import questiondata from"@/data/questions.json";
+import { useState, useEffect } from "react";
 
 export default function QnaPage() {
   const [questions, setQuestions] = useState([]);
   const [input, setInput] = useState("");
 
+  // Load questions from localStorage or fallback to default JSON
+  useEffect(() => {
+    const saved = localStorage.getItem("questions");
+    if (saved) setQuestions(JSON.parse(saved));
+    else {
+      // default questions
+      setQuestions([
+        {
+          question: "How to use Next.js App Router?",
+          username: "peter",
+          answers: ["Use pages in app/ directory, add page.js files."]
+        },
+        {
+          question: "How to store messages locally?",
+          username: "jack",
+          answers: ["You can use localStorage for demo purposes."]
+        }
+      ]);
+    }
+  }, []);
+
+  // Save questions to localStorage whenever they change
+  useEffect(() => {
+    localStorage.setItem("questions", JSON.stringify(questions));
+  }, [questions]);
+
   const addQuestion = () => {
     if (!input.trim()) return;
     setQuestions([
       ...questions,
-      { text: input, answers: [] }
+      { question: input, username: "You", answers: [] }
     ]);
     setInput("");
   };
@@ -49,7 +77,7 @@ export default function QnaPage() {
         ) : (
           questions.map((q, i) => (
             <div key={i} className="bg-white p-4 rounded-xl shadow">
-              <h2 className="font-semibold text-lg mb-2">❓ {q.text}</h2>
+              <h2 className="font-semibold text-lg mb-2">❓ {q.question}</h2>
 
               {/* Answers */}
               <div className="space-y-2 mb-3">

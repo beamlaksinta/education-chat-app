@@ -1,0 +1,14 @@
+
+
+[
+  {
+    "question": "How to use Next.js App Router?",
+    "username": "peter",
+    "answer": "Use pages in app/ directory, add page.js files."
+  },
+  {
+    "question": "How to store messages locally?",
+    "username": "jack",
+    "answer": "You can use localStorage for demo purposes."
+  }
+]

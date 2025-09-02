@@ -1,3 +1,4 @@
+// app/resources/page.js
 export default function ResourcesPage() {
   const resources = [
     {
@@ -18,8 +19,10 @@ export default function ResourcesPage() {
   ];
 
   return (
-    <div className="p-6 max-w-5xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6 text-blue-600">📚 Resources</h1>
+    <div className="p-6 max-w-6xl mx-auto">
+      <h1 className="text-4xl font-bold mb-6 text-blue-600 text-center">
+        📚 Resources
+      </h1>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {resources.map((res, i) => (
@@ -27,9 +30,10 @@ export default function ResourcesPage() {
             key={i}
             href={res.link}
             target="_blank"
-            className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
+            rel="noopener noreferrer"
+            className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition transform hover:-translate-y-1"
           >
-            <h2 className="font-bold text-lg mb-2">{res.title}</h2>
+            <h2 className="font-bold text-xl mb-2">{res.title}</h2>
             <p className="text-gray-600">{res.desc}</p>
           </a>
         ))}
