@@ -125,18 +125,14 @@ npm start
 
 ## 📸 Screenshots
 
-![Dashboard](screenshoots/dashboard.png)
-![Chat](screenshoots/chat.png)
-![Resources](screenshoots/resources.png)
-![Resources](screenshoots/resources.png)
-![Resources](screenshoots/resources.png)
-![Resources](screenshoots/resources.png)
-![Resources](screenshoots/resources.png)
-![Resources](screenshoots/resources.png)
-![Resources](screenshoots/resources.png)
-![Resources](screenshoots/resources.png)
-
-
+![Dashboard](screenshoots/home.png)
+![Chat](screenshoots/login.png)
+![Resources](screenshoots/dashboard.png)
+![Resources](screenshoots/chat.png)
+![Resources](screenshoots/profile.png)
+![Resources](screenshoots/members.png)
+![Resources](screenshoots/QnA.png)
+![Resources](screenshoots/resource.png)
 
 ## 🤝 Contributing
 
