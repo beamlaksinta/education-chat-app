@@ -125,6 +125,10 @@ npm start
 | [Beamlak Sintayehu](https://github.com/beamlaksinta) | Frontend |
 | [Bethlehem Adugna](https://github.com/Betheel1) | Frontend |
 
+## 🎥 Demo Video
+
+[Download & Watch the Demo](screenshoots/demo.mp4)
+
 
 ## 📸 Screenshots
 
