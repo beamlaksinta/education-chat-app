@@ -123,6 +123,20 @@ npm start
 - [Beamlak](https://github.com/beamlaksinta)
 - [Bethlehem](https://github.com/Betheel1)
 
+## 📸 Screenshots
+
+![Dashboard](screenshoots/dashboard.png)
+![Chat](screenshoots/chat.png)
+![Resources](screenshoots/resources.png)
+![Resources](screenshoots/resources.png)
+![Resources](screenshoots/resources.png)
+![Resources](screenshoots/resources.png)
+![Resources](screenshoots/resources.png)
+![Resources](screenshoots/resources.png)
+![Resources](screenshoots/resources.png)
+![Resources](screenshoots/resources.png)
+
+
 
 ## 🤝 Contributing
 
