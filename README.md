@@ -1,4 +1,5 @@
 # 🎓 EduChat - Educational Chat Platform
+> ⚠️ **Note:** The working code is in the `main` branch. Other branches are for development or testing purposes and may not be fully functional. Please use the `main` branch.
 
 A full-stack educational chat application built with Next.js featuring real-time communication, study groups, and resource sharing.
 
