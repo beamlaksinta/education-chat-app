@@ -119,9 +119,12 @@ npm start
 
 ## 👥 Contributors
 
-- [Kaku Temesgen](https://github.com/fenitamas)
-- [Beamlak](https://github.com/beamlaksinta)
-- [Bethlehem](https://github.com/Betheel1)
+| Contributor | Role |
+|-------------|------|
+| [Kaku Temesgen](https://github.com/fenitamas) | Frontend & Backend |
+| [Beamlak](https://github.com/beamlaksinta) | Frontend |
+| [Bethlehem](https://github.com/Betheel1) | Frontend |
+
 
 ## 📸 Screenshots
 
